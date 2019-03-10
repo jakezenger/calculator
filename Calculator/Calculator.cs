@@ -15,7 +15,7 @@ namespace Calculator
 
         public static float Divide(float a, float b)
         {
-            return a - b;
+            return a * b;
         }
 
         public static float Add(float a, float b)
