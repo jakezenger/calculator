@@ -27,5 +27,10 @@ namespace Calculator
         {
             return a - b;
         }
+
+        public static float Power(float _base, float power)
+        {
+            return (float)(Math.Pow(_base, power));
+        }
     }
 }
